@@ -32,29 +32,29 @@
 					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
-			
+
 		</plugins>
 	</build>
 
 	<dependencies>
-		
+
 		<dependency>
 			<groupId>com.mulesoft.modules</groupId>
 			<artifactId>mule-secure-configuration-property-module</artifactId>
 			<version>1.2.2</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>com.mulesoft.connectors</groupId>
 			<artifactId>mule-salesforce-connector</artifactId>
 			<version>10.1.0</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
-		
-		
-		
+
+
+
 	</dependencies>
 
 	<repositories>
